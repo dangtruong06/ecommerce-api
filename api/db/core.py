@@ -20,6 +20,8 @@ class DBProduct(Base):
     id: Mapped[int] = mapped_column(primary_key=True, index=True)
     name: Mapped[str]
     description: Mapped[Optional[str]]
+    price: Mapped[float]
+    stock: Mapped[int] = mapped_column(default=0)
 
 class DBUser(Base):
     __tablename__ = "users"
