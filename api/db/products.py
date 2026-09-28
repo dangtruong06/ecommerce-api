@@ -1,3 +1,6 @@
+# products.py
+# products operations and data validation
+
 from pydantic import BaseModel
 from typing import Optional
 from sqlalchemy.orm import Session

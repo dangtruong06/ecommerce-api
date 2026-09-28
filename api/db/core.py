@@ -1,3 +1,6 @@
+# core.py
+# db schema, session
+
 import os 
 from dotenv import load_dotenv
 from sqlalchemy import create_engine, ForeignKey
