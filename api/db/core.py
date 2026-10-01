@@ -14,6 +14,9 @@ DATABASE_URL = os.getenv("DATABASE_URL")
 class NotFoundError(Exception):
     pass
 
+class EmailAlreadyExistsError(Exception):
+    pass
+
 class Base(DeclarativeBase):
     pass
 
